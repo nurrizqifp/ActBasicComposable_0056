@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             Pertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.fillMaxSize().padding(innerPadding)) {
-                        TateletakRow(modifier = Modifier)
+                        TateletakBox(modifier = Modifier)
                     }
                 }
             }
