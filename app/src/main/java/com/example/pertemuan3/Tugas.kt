@@ -57,6 +57,27 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 contentDescription = "Logo UMY",
                 modifier = Modifier.size(120.dp)
             )
+
+            Spacer(modifier = Modifier.height(48.dp))
+
+            Text(
+                text = stringResource(id = R.string.label_nama),
+                color = Color.Red,
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = stringResource(id = R.string.nama_mahasiswa),
+                color = Color.Blue,
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold
+            )
+            Text(
+                text = stringResource(id = R.string.nim_mahasiswa),
+                color = Color.Black,
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }
