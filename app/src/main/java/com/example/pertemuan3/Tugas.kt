@@ -1,6 +1,8 @@
 package com.example.pertemuan3
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -9,10 +11,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -77,6 +81,19 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 color = Color.Black,
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold
+            )
+
+            Spacer(modifier = Modifier.height(12.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.siti_walidah_umy),
+                contentDescription = "Siti Walidah UMY",
+                contentScale = ContentScale.Fit,
+                modifier = Modifier
+                    .size(290.dp)
+                    .clip(CircleShape)
+                    .background(Color(0xFFE6E6FA))
+                    .border(width = 4.dp, color = Color.White, shape = CircleShape)
             )
         }
     }
