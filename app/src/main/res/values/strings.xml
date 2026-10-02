@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Pertemuan3</string>
     <string name="kota">Jakarta</string>
+
+    <string name="judul_login">Login</string>
+    <string name="deskripsi_login">Ini adalah halaman login,</string>
+    <string name="label_nama">Nama</string>
+    <string name="nama_mahasiswa">Nur Rizqi Febriansyah Putra</string>
+    <string name="nim_mahasiswa">20240140056</string>
 </resources>
